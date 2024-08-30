@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="gameCanvas" width="500" height="500"></canvas>
+      <p id="message"></p>
+      <button id="speed">Augmenter la vitesse</button>
+      <div>
+        <h2>Top 20 scores</h2>
+        <div id="scoreBoard" class="hidden">
+
+        </div>
+        <ul id="scoreList"></ul>
+        <form id="playerForm" class="hidden">
+          <input
+            type="text"
+            id="playerName"
+            placeholder="Enter your name"
+            minlength="2"
+            maxlength="20"
+            required
+          />
+          <button type="submit">Submit</button>
+      </div>
+      </form>
+
+    </div>
+  </body>
+</html>

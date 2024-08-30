@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+#gameCanvas {
+    border: 1px solid black;
+}
+
+#scoreBoard {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+}
